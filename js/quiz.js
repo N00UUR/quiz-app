@@ -42,22 +42,22 @@ function displayQuestion() {
   answers.textContent = "";
 
   question.choices.forEach((choice, index) => {
-    const option = document.createElement("div");
-    option.className = "form-check border rounded p-3 ps-5 mb-2 answer-option";
+    const option = document.createElement("label");
+    option.className = "answer-option";
 
     const input = document.createElement("input");
     input.type = "radio";
     input.name = "answer";
     input.id = `answer-${index}`;
     input.value = index;
-    input.className = "form-check-input";
+    input.className = "answer-input";
+    option.htmlFor = input.id;
 
-    const label = document.createElement("label");
-    label.htmlFor = input.id;
-    label.className = "form-check-label";
-    label.textContent = choice;
+    const text = document.createElement("span");
+    text.className = "answer-text";
+    text.textContent = choice;
 
-    option.append(input, label);
+    option.append(input, text);
     answers.append(option);
   });
 

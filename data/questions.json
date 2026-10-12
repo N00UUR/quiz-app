@@ -2,61 +2,111 @@
   {
     "id": 1,
     "question": "Which HTML element creates a hyperlink?",
-    "choices": ["<a>", "<button>", "<img>", "<div>"],
+    "choices": [
+      "<a>",
+      "<button>",
+      "<img>",
+      "<div>"
+    ],
     "correctAnswer": 0
   },
   {
     "id": 2,
     "question": "Which CSS property changes the text color?",
-    "choices": ["text-color", "font-style", "color", "background-color"],
+    "choices": [
+      "text-color",
+      "font-style",
+      "color",
+      "background-color"
+    ],
     "correctAnswer": 2
   },
   {
     "id": 3,
     "question": "What does declaring a variable with const prevent?",
-    "choices": ["Changing the items inside an array", "Reassigning the variable", "Calling a function", "Reading the variable"],
+    "choices": [
+      "Changing the items inside an array",
+      "Reassigning the variable",
+      "Calling a function",
+      "Reading the variable"
+    ],
     "correctAnswer": 1
   },
   {
     "id": 4,
     "question": "Which array method adds an item to the end of an array?",
-    "choices": ["unshift()", "pop()", "shift()", "push()"],
+    "choices": [
+      "unshift()",
+      "pop()",
+      "shift()",
+      "push()"
+    ],
     "correctAnswer": 3
   },
   {
     "id": 5,
     "question": "Which method converts a JavaScript object into a JSON string?",
-    "choices": ["JSON.stringify()", "JSON.parse()", "Object.keys()", "Number()"],
+    "choices": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "Object.keys()",
+      "Number()"
+    ],
     "correctAnswer": 0
   },
   {
     "id": 6,
     "question": "Which browser API stores key-value strings between visits?",
-    "choices": ["fetch()", "localStorage", "document.querySelector()", "setTimeout()"],
+    "choices": [
+      "fetch()",
+      "localStorage",
+      "document.querySelector()",
+      "setTimeout()"
+    ],
     "correctAnswer": 1
   },
   {
     "id": 7,
     "question": "What is the index of the first item in a JavaScript array?",
-    "choices": ["1", "-1", "0", "2"],
+    "choices": [
+      "1",
+      "-1",
+      "0",
+      "2"
+    ],
     "correctAnswer": 2
   },
   {
     "id": 8,
     "question": "Which operator checks equality without converting the value types?",
-    "choices": ["!=", "=", "==", "==="],
-    "correctAnswer": 3
+    "choices": [
+      "!=",
+      "=",
+      "==",
+      "==="
+    ],
+    "correctAnswer": 2
   },
   {
     "id": 9,
     "question": "What does response.json() return?",
-    "choices": ["A Promise that resolves to the parsed JSON data", "The original JSON text synchronously", "An HTML element", "Only an HTTP status code"],
+    "choices": [
+      "A Promise that resolves to the parsed JSON data",
+      "The original JSON text synchronously",
+      "An HTML element",
+      "Only an HTTP status code"
+    ],
     "correctAnswer": 0
   },
   {
     "id": 10,
     "question": "Which method prevents a form's default submission behavior?",
-    "choices": ["event.stopPropagation()", "event.preventDefault()", "form.reset()", "window.location.reload()"],
+    "choices": [
+      "event.stopPropagation()",
+      "event.preventDefault()",
+      "form.reset()",
+      "window.location.reload()"
+    ],
     "correctAnswer": 1
   }
 ]
