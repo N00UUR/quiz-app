@@ -1,0 +1,15 @@
+body {
+  background-color: #f4f6f9;
+}
+
+.progress {
+  height: 10px;
+}
+
+.answer-option {
+  transition: background-color 0.2s;
+}
+
+.answer-option:hover {
+  background-color: #eef4ff;
+}
